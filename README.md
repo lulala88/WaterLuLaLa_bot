@@ -1,4 +1,4 @@
-# 設置可以提醒喝水的Telegram_bot
+# 提醒每天喝水的Telegram_bot
 參考資料
 1. 將Telegram_bot設置在RaspberryPi
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
@@ -11,4 +11,3 @@ https://github.com/dbader/schedule
 
 4. 天氣資訊
 https://works.ioa.tw/weather/api/doc/index.html
-
