@@ -6,7 +6,9 @@
 ## 概念
 1. User : 輸入身高體重  
    Telegrambot:回傳一天所需喝水量
+   
 2. 設置三個時間定時提醒喝水
+
 3. User:輸入/weather指令
    Telegram bot:回傳溫度 並提醒是否增加/減少喝水量
    
