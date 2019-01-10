@@ -70,21 +70,21 @@ sudo pip install telepot
 
 
 ## 指令介紹
-### start - to begin with a cool picture
+### 1. start - to begin with a cool picture
 
 ![](https://i.imgur.com/qh5PocY.png)
-### help - get some help 
+### 2. help - get some help 
 
-### daily_demand - know how much water you need
+### 3. daily_demand - know how much water you need
 
 ![](https://i.imgur.com/V8xOPai.png)
 
-### weather - Puli's weather
+### 4. weather - Puli's weather
 
 ![](https://i.imgur.com/0jjMyFx.png)
 
 
-## 未來藍圖
+## 5. 未來藍圖
 
 - 更改/etc/rc.local 讓程式一開機就執行
 - 配合今天的溫濕度及氣溫 去增加或減少所需補充水量
