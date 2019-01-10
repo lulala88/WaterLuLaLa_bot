@@ -18,7 +18,8 @@
 
 ## 接線方式
 
-
+## 建立Telegram_bot
+![https://github.com/lulala88/WaterLuLaLa_bot/blob/master/49378818_1126747494162752_8568655971100917760_n.png]
 
 ## 概念
 1. User : 輸入身高體重  
