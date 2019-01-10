@@ -14,22 +14,18 @@ updater = Updater(token='793411044:AAGoUYvXBKapPWA8x6LWbqdY6FMu90PUswc')
 dispatcher = updater.dispatcher 
 
 
-# 表情符號 emojize(":(eomij_code):", use_aliases=True)
+# 表情符號 
 smile= emojize("😄", use_aliases=True) 
 
-target = [] 
 target = [] #用來放置訪問過這個bot的id 
 
 
-def remind(bot): 
-    global target 
  # 提醒多喝水
 def remind(bot):
     ＃ 傳入陣列
     global target
     ＃ 定義陣列裡的參數
     for chat in target: 
-        print(chat, target) 
         print(chat, target) ＃作為本機端確認是否有傳入
        ＃以下為每次提醒傳送的訊息
         bot.sendMessage(chat_id=chat, text=emojize("🔔", use_aliases=True)+'Time to Drink More Water ! !\n    WATERRRRRRRRR is so good'+emojize("💩", use_aliases=True)+emojize("👍", use_aliases=True)) 
@@ -47,8 +43,7 @@ def start(bot, update):
     ＃定義拜訪過的userid
     chat_id = update.message.chat_id
     ＃確認陣列中沒有重複存入這個 user後，將caht_id放入
-    if chat_id not in target
-        print(chat_id)
+    if chat_id not in targe
         print(chat_id)＃確認用
         target.append(chat_id)
 
