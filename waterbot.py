@@ -24,8 +24,10 @@ target = [] #用來放置訪問過這個bot的id
 def remind(bot):
     ＃ 傳入陣列
     global target
+   
     ＃ 定義陣列裡的參數
-    for chat in target: 
+    for chat in target:
+     
         print(chat, target) ＃作為本機端確認是否有傳入
        ＃以下為每次提醒傳送的訊息
         bot.sendMessage(chat_id=chat, text=emojize("🔔", use_aliases=True)+'Time to Drink More Water ! !\n    WATERRRRRRRRR is so good'+emojize("💩", use_aliases=True)+emojize("👍", use_aliases=True)) 
@@ -37,11 +39,14 @@ def remind(bot):
 def start(bot, update): 
     ＃傳入陣列放置拜訪過的user
     global target 
+   
     ＃傳送有關bot的資訊與可愛圖片一張
     bot.send_message(chat_id=update.message.chat_id, text="I'm WaterLuLaLa"+ smile +",\n which is a bot that will remind you four time a day to drink more water\n /help - get some help \n /daily_demand - knowing your daily demand in water \n /weather - knowing weather \n") 
     bot.sendPhoto(chat_id=update.message.chat_id, photo='https://i.pinimg.com/originals/27/91/32/2791328773f5d889befdf67595f2c5e3.png') 
+    
     ＃定義拜訪過的userid
     chat_id = update.message.chat_id
+    
     ＃確認陣列中沒有重複存入這個 user後，將caht_id放入
     if chat_id not in targe
         print(chat_id)＃確認用
@@ -58,7 +63,8 @@ updater.start_polling()
 
 ＃help指令
 def help(bot, update):
-    ＃發送所有指令用以參考
+    
+   ＃發送所有指令用以參考
     bot.send_message(chat_id=update.message.chat_id, text="There's some commands : \n /start - to begin with a cool picture\n /help - get some help\n /daily_demand - know how much water you need\n /weather - Puli's weather")
 
 
