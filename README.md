@@ -19,6 +19,7 @@
 ## 接線方式
 
 ## 建立Telegram_bot
+![image](https://github.com/lulala88/WaterLuLaLa_bot/blob/master/49407159_402289950513843_7869862137751928832_n.png)
 ![image](https://github.com/lulala88/WaterLuLaLa_bot/blob/master/49378818_1126747494162752_8568655971100917760_n.png)
 
 ## 概念
