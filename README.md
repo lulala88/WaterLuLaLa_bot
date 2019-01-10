@@ -35,19 +35,22 @@ weather - Puli's weather
 ## 參考資料
 1.將Telegram_bot設置在 
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
-
 2.Telegram_bot 
 https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions-–-Your-first-Bot
-2.計算一天喝水量  https://www.morewater.com.tw/QA.aspx
-3.python 參考  https://github.com/dbader/schedule#h3
-4. python crontab https://github.com/dbader/schedule
+2.計算一天喝水量  
+https://www.morewater.com.tw/QA.aspx
+3.python 參考  
+https://github.com/dbader/schedule#h3
+4. python crontab 
+https://github.com/dbader/schedule
 5.天氣資訊 
 https://works.ioa.tw/weather/api/doc/index.html
 https://github.com/comdan66/weather/blob/master/README.md
 6.表情 
 https://github.com/python-telegram-bot/python-telegram-bot/wiki/Emoji
 https://www.webfx.com/tools/emoji-cheat-sheet/
-7.requests https://blog.gtwang.org/programming/python-requests-module-tutorial/
+7.requests 
+https://blog.gtwang.org/programming/python-requests-module-tutorial/
 
 ## 工作分配
 106213014 資管二  歐芷欣 /daily_demand & 定時提醒  
