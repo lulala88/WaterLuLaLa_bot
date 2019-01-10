@@ -37,7 +37,7 @@ Lulala a LSA專題 :baby:
 ### Step 1: Install Telegram on Phone
 ### Step 2: Text /newbot to BotFather
 ![](https://i.imgur.com/WY5dtmq.png)
-![](https://i.imgur.com/yuculUx.png)
+![](https://i.imgur.com/htg7cBy.png)
 ### Step 3: Use Telegram's Web Version
 ### Step 4: Install Telepot on Raspberry Pi
 sudo apt-get install python-pip
