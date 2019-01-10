@@ -18,7 +18,6 @@
 - python-telegram-bot
 - telegram.ext                                                              
 - telepot
-- flask
 - con
 - beautifulsoup4
 - requests
