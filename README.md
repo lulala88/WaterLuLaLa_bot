@@ -32,6 +32,14 @@
 ### help - get some help 
 ### daily_demand - know how much water you need 
 ### weather - Puli's weather
+
+## 未來藍圖
+- 更改/etc/rc.local 讓程式一開機就執行
+- 配合今天的溫濕度及氣溫 去增加或減少所需補充水量
+- 利用telegram bot 記錄大家的上線時間  依照上線時間，去做對應規劃
+- 可以自己建立 reminder 提醒每天計畫
+
+
 ## 參考資料
 1. 將Telegram_bot設置在
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
@@ -60,5 +68,5 @@ https://www.webfx.com/tools/emoji-cheat-sheet/
 https://blog.gtwang.org/programming/python-requests-module-tutorial/
 
 ## 工作分配
-106213014 資管二  歐芷欣 /daily_demand & 定時提醒  
-106213019 資管二  蘇美婷 /weather
+106213014 資管二  歐芷欣 /daily_demand & 定時提醒 & 製作ppt 
+106213019 資管二  蘇美婷 /weather & 寫github
