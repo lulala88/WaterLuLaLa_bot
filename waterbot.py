@@ -16,8 +16,6 @@ dispatcher = updater.dispatcher
 smile= emojize(":smile:", use_aliases=True) 
  
 target = [] 
-target2 = [] 
-target3 = [] 
  
  
 def remind(bot): 
