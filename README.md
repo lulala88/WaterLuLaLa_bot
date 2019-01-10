@@ -54,6 +54,7 @@ https://github.com/comdan66/weather/blob/master/README.md
 
 7. 表情 
 https://github.com/python-telegram-bot/python-telegram-bot/wiki/Emoji
+
 https://www.webfx.com/tools/emoji-cheat-sheet/
 
 8. requests
