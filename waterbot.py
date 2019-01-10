@@ -12,44 +12,64 @@ import json
  
 updater = Updater(token='793411044:AAGoUYvXBKapPWA8x6LWbqdY6FMu90PUswc') 
 dispatcher = updater.dispatcher 
- 
-smile= emojize(":smile:", use_aliases=True) 
- 
+
+
+# 表情符號 emojize(":(eomij_code):", use_aliases=True)
+smile= emojize("😄", use_aliases=True) 
+
 target = [] 
- 
- 
+target = [] #用來放置訪問過這個bot的id 
+
+
 def remind(bot): 
     global target 
+ # 提醒多喝水
+def remind(bot):
+    ＃ 傳入陣列
+    global target
+    ＃ 定義陣列裡的參數
     for chat in target: 
         print(chat, target) 
-        bot.sendMessage(chat_id=chat, text=emojize(":bell:", use_aliases=True)+'Time to Drink More Water ! !\n    WATERRRRRRRRR is so good'+emojize(":poop:", use_aliases=True)+emojize(":+1:", use_aliases=True)) 
- 
+        print(chat, target) ＃作為本機端確認是否有傳入
+       ＃以下為每次提醒傳送的訊息
+        bot.sendMessage(chat_id=chat, text=emojize("🔔", use_aliases=True)+'Time to Drink More Water ! !\n    WATERRRRRRRRR is so good'+emojize("💩", use_aliases=True)+emojize("👍", use_aliases=True)) 
 
- 
- 
+
+
+
+＃ start指令 
 def start(bot, update): 
+    ＃傳入陣列放置拜訪過的user
     global target 
+    ＃傳送有關bot的資訊與可愛圖片一張
     bot.send_message(chat_id=update.message.chat_id, text="I'm WaterLuLaLa"+ smile +",\n which is a bot that will remind you four time a day to drink more water\n /help - get some help \n /daily_demand - knowing your daily demand in water \n /weather - knowing weather \n") 
     bot.sendPhoto(chat_id=update.message.chat_id, photo='https://i.pinimg.com/originals/27/91/32/2791328773f5d889befdf67595f2c5e3.png') 
+    ＃定義拜訪過的userid
     chat_id = update.message.chat_id
+    ＃確認陣列中沒有重複存入這個 user後，將caht_id放入
     if chat_id not in target
         print(chat_id)
+        print(chat_id)＃確認用
         target.append(chat_id)
 
+＃新增這個指令
 start_handler = CommandHandler('start', start)
 dispatcher.add_handler(start_handler)
 
+＃啟動指令
 updater.start_polling()
 
 
 
+＃help指令
 def help(bot, update):
+    ＃發送所有指令用以參考
     bot.send_message(chat_id=update.message.chat_id, text="There's some commands : \n /start - to begin with a cool picture\n /help - get some help\n /daily_demand - know how much water you need\n /weather - Puli's weather")
-    
 
+
+＃新增指令help
 help_handler = CommandHandler('help', help)
 dispatcher.add_handler(help_handler)
-
 updater.start_polling()
 
 
