@@ -1,13 +1,24 @@
 # 提醒每天喝水的Telegram_bot
 
 ## 指令介紹
-start - to begin with a cool picture
-help - get some help 
-daily_demand - know how much water you need 
-weather - Puli's weather
+- start - to begin with a cool picture
+- help - get some help 
+- daily_demand - know how much water you need 
+- weather - Puli's weather
+
+
 
 ## 動機發想
 因為現代人太常喝飲料，以至於時常忘了喝水，然而喝水又很重要，因此我們決定做一個telegram bot 來提醒大家喝水
+
+## 所需設備
+- Raspberry pi 3 
+- USB 轉 TTL 傳輸線 
+- 電腦
+
+## 接線方式
+
+
 
 ## 概念
 1. User : 輸入身高體重  
@@ -30,7 +41,7 @@ weather - Puli's weather
 - Emoji   
 - schedule    
 - time                                                                             
--logging                                                                             
+- logging                                                                             
 
 ## 參考資料
 1. 將Telegram_bot設置在
