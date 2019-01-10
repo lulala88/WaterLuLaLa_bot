@@ -75,6 +75,7 @@ sudo pip install telepot
 ![](https://i.imgur.com/qh5PocY.png)
 ### 2. help - get some help 
 
+![](https://i.imgur.com/t9IvtWM.png)
 ### 3. daily_demand - know how much water you need
 
 ![](https://i.imgur.com/V8xOPai.png)
