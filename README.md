@@ -1,13 +1,5 @@
 # 提醒每天喝水的Telegram_bot
 
-## 指令介紹
-- start - to begin with a cool picture
-- help - get some help 
-- daily_demand - know how much water you need 
-- weather - Puli's weather
-
-
-
 ## 動機發想
 因為現代人太常喝飲料，以至於時常忘了喝水，然而喝水又很重要，因此我們決定做一個telegram bot 來提醒大家喝水
 
@@ -21,15 +13,6 @@
 ## 建立Telegram_bot
 ![image](https://github.com/lulala88/WaterLuLaLa_bot/blob/master/49407159_402289950513843_7869862137751928832_n.png)
 ![image](https://github.com/lulala88/WaterLuLaLa_bot/blob/master/49378818_1126747494162752_8568655971100917760_n.png)
-
-## 概念
-1. User : 輸入身高體重  
-   Telegrambot:回傳一天所需喝水量
-   
-2. 設置三個時間定時提醒喝水
-
-3. User:輸入/weather指令
-   Telegram bot:回傳溫度 並提醒是否增加/減少喝水量
    
 ## 安裝套件
 - python-telegram-bot
@@ -45,6 +28,11 @@
 - time                                                                             
 - logging                                                                             
 
+## 指令介紹
+### start - to begin with a cool picture
+### help - get some help 
+### daily_demand - know how much water you need 
+### weather - Puli's weather
 ## 參考資料
 1. 將Telegram_bot設置在
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
