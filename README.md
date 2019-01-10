@@ -84,7 +84,7 @@ sudo pip install telepot
 ![](https://i.imgur.com/0jjMyFx.png)
 
 
-## 5. 未來藍圖
+## 未來藍圖
 
 - 更改/etc/rc.local 讓程式一開機就執行
 - 配合今天的溫濕度及氣溫 去增加或減少所需補充水量
